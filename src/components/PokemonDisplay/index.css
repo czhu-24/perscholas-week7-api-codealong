@@ -1,0 +1,10 @@
+#pokemon-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#pokemon-container>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
